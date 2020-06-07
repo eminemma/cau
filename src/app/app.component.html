@@ -1,0 +1,36 @@
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">SCAU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" [routerLink]="['/usuarios']" >Usuarios</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" href="#">Sistemas</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" href="#">Areas</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" href="#">Roles</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" href="#">Novedades</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Salir</button>
+      </form>
+    </div>
+  </nav>
+</header>
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</main>

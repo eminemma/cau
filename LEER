@@ -1,0 +1,23 @@
+Instalar cliente angular
+npm install -g @angular/cli
+
+Instalar la estructura basica de un proyecto angular
+ng new cau
+
+Ejecutar servidor
+ng serve --live-reload
+
+
+Cargar boostrap
+https://medium.com/@oyewusioyekunle/how-to-add-bootstrap-to-your-angular-project-angular-8-6379fd6a0f46
+
+
+Agregar electron, con esto se puede generar una aplicacion del sitio
+https://www.positronx.io/build-electron-desktop-app-with-angular-8-electron-angular-tutorial/
+npm install electron-packager --save-dev
+Para build ejecutar se generar .exe C:\dev\angular\cau\node_modules\electron\dist
+npm run start:electron
+
+Empaquetar y generar el .exe de la aplicacion electron
+https://www.c-sharpcorner.com/article/steps-to-build-angular-7-beta-desktop-apps-with-electron/
+
