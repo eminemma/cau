@@ -21,3 +21,6 @@ npm run start:electron
 Empaquetar y generar el .exe de la aplicacion electron
 https://www.c-sharpcorner.com/article/steps-to-build-angular-7-beta-desktop-apps-with-electron/
 
+https://medium.com/@johndyer24/creating-and-deploying-an-auto-updating-electron-app-for-mac-and-windows-using-electron-builder-6a3982c0cee6
+
+https://medium.com/@mugan86/crear-una-aplicaci%C3%B3n-de-escritorio-con-angular-y-electr%C3%B3n-9c349e683797
